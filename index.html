@@ -7,7 +7,22 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
     <script src="index.js"></script>
 		<h1>This is my fantastic website!</h1>
+    <form id="guestbook">
+      <span>Name:</span>
+      <br/>
+      <input type="text" id="name">
+      <br/>
+      <span>Comment:</span>
+      <br/>
+      <input type="text" id="comment">
+      <br/>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="comments">
   </body>
 </html>
